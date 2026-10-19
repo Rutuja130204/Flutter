@@ -1,5 +1,5 @@
 void main() {
-  int marks = 75;
+  int marks = 34;
 
   if (marks >= 90) {
     print("Grade A");
