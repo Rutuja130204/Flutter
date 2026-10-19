@@ -26,11 +26,27 @@ void main() {
     }
 
     int x = 6, y= 7;
-    if((++x > y--) && (++x < ++y)){
+    if((++x > y--) && (++x < y++)){
       print("Condition true");
     }else{
       print("Condition false");
     }print(x);
     print(y);
 
-}
+
+  int day = 3;
+  switch (day){
+    case 1: {
+      print("Monday");
+    }break;
+    case 2:{
+      print("Tuesday");
+    }break;
+    case 3:{
+      print("Wednesday");
+    }break;
+  default : {
+    print("This is default case");
+    }
+  }
+  }
