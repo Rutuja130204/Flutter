@@ -33,6 +33,23 @@ for (int i in GeeksForGeeks) {
   print(i);
 }
 
+//for-each loop
+// var value = [1,2,3,4,5];
+// value.forEach((num)=> print (num)); 
 
+
+List<dynamic> data = [10, "Hello", 20, "Dart", 30, "Flutter", 40];
+
+data.forEach((item) {
+  if (item is int) {
+    print(item);
+  }
+  });
+
+data.forEach((item) {
+  if (item is String ) {
+    print(item);
+  }
+  });
 
 }
