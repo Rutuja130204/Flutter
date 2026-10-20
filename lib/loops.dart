@@ -52,4 +52,13 @@ data.forEach((item) {
   }
   });
 
+
+//while loop
+var GeeksForGeeks1 = 4;
+int i = 1;
+while (i <= GeeksForGeeks1){
+  print("Hello Geek");
+  i++;
+}
+
 }
