@@ -2,6 +2,7 @@ import 'practice.dart' as practice;
 
 //if else 
 import 'package:flutter/material.dart';
+import 'dart:io';
 
 void main(){
 int age = 23 ;
@@ -55,33 +56,33 @@ if(number % 3 == 0 && number % 5 == 0){
 
 
 //task switch 
-int day = 3;
-switch (day){
-  case 1 : {
-    print("Monday");
-  }break;
-  case 2 :{
-    print("Tuesday");
-  }break;
-  case 3:{
-    print("Wednesday");
-  }break;
-  case 4:{
-    print("Thursday");
-  }break;
-  case 5:{
-    print("Friday");
-  }break;
-  case 6:{
-    print("Saturday");
-  }break;
-  case 7 :{
-    print("Sunday");
-  }break;
-  default:{
-  print("This is a default");
-  }
-} 
+// int day = 3;
+// switch (day){
+//   case 1 : {
+//     print("Monday");
+//   }break;
+//   case 2 :{
+//     print("Tuesday");
+//   }break;
+//   case 3:{
+//     print("Wednesday");
+//   }break;
+//   case 4:{
+//     print("Thursday");
+//   }break;
+//   case 5:{
+//     print("Friday");
+//   }break;
+//   case 6:{
+//     print("Saturday");
+//   }break;
+//   case 7 :{
+//     print("Sunday");
+//   }break;
+//   default:{
+//   print("This is a default");
+//   }
+// } 
 
 // int choice = 12;
 

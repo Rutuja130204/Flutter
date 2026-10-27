@@ -61,4 +61,12 @@ while (i <= GeeksForGeeks1){
   i++;
 }
 
+
+//do-while
+
+var GeeksForGeeks2 = 4;
+int J = 1;
+do{print ("Hello Hello Geek");
+  J++ ;
+  }while(J <= GeeksForGeeks2);
 }
